@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&family=Ubuntu:wght@300&display=swap');
+
+body {
+    background-color: rgb(144, 200, 223);
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+h1 {
+    text-align: center;
+    color: blueviolet;
+    background-color: rgb(192, 142, 199);
+    border-style: ridge;
+    border-radius: 14px;
+    border-color: blueviolet;
+    font-size: 40px;
+}
+
+.pezLogo{
+    width: 10rem;
+    }
+
+.letra{
+    font-size: 0,5rem;
+    padding-left: 2rem;
+    text-transform:capitalize;
+}
+a {
+    text-decoration: none;
+    font: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: black;
+    font-size: 20px;
+
+}
+
+main{
+    background-color: rgb(192, 142, 199);
+    border-style: ridge;
+    border-radius: 14px;
+    border-color: blueviolet;
+    justify-content: center;
+}
+h2{
+    font-family: 'Ubuntu', sans-serif;
+    font-style: italic;
+    font-size: 30px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.zeus {
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    }
+
+.apoloChan{
+    width: 60%;
+    margin-left: 20%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    text-align: center;
+}
+
+footer p{
+    font-size: 15px;
+    text-align: left;
+    font-style: italic;
+    color: black;
+}
+
+/* Sección Contacto */
+label {
+     margin: 10px;
+     display: block;
+}
+
+h3{
+    font-weight: bold;
+    color: rgb(44, 44, 102);
+    font-style: italic;
+    text-align: center;
+}
+
+input{
+        display: block;
+}
+
+/* Seccion Especimenes */
+
+.pieEnlace{
+    text-align: left;
+    padding: 10px;
+    margin-left: 20px;
+    margin-right: 20px;
+    color: #fff;
+    background-color:#7d3c98;
+    border-style: ridge;
+    border-radius: 14px;
+    border-color:  #4a235a;
+    font-size: 20px;
+}
+
