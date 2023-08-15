@@ -1,35 +1,80 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title> Club de Pesca </title>
-    <link rel="stylesheet" href="../css/estilos.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title> Club de Pesca </title>
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+  <!-- CSS BS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+  <!-- CSS -->
+  <link rel="stylesheet" href="../css/estilos.css">
 </head>
 
-<body>
-    <header>
-        <h1> Quienes Somos </h1>
+<body class="container-fluid">
 
-        <nav>
-            <ul>
-                <li><a href="../index.html">Inicio</a></li>
-                <li><a href="especimenes.html"> Especimenes</a></li>
-                <li><a href="galeria.html">Galeria</a></li>
-                <li><a href="quienes somos.html"> Quienes Somos </a></li>
-                <li><a href="contacto.html">Contacto</a></li>      
-            </ul>
-        </nav>
-    </header>
+  <header>
+    <div class="tituloPrincipal">
+      <h1> Quienen Somos </h1>
+    </div>
+    <nav class="navbar navbar-expand-lg letra">
+      <div class="container-fluid">
+        <div class="logo"><a class="navbar-brand" href="../index.html"> <img class="frodo"
+              src="../Imágenes/nqn-logo.png" alt="Logo "></a></div>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+          aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="../index.html"> Inicio </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="especimenes.html"> Especímenes </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="galeria.html"> Galeria </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="quienes somos.html"> Quienes Somos</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="contacto.html"> Contacto </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
+  <main>
+    <p> Somos un grupos de camaradas que aman la pesca deportiva. Organizamos torneos eventuales donde disfrutamos junto
+      a nuestras familias de una linda tarde de relajación. </p>
+    <section>
 
-    <main>
-        <p> Somos un grupos de camaradas que aman la pesca deportiva. Organizamos torneos eventuales donde disfrutamos junto a nuestras familias de una linda tarde de relajación. </p>
+      <h3> Imágen del organizador</h3>
+      <img src="../Imágenes/FotoPersonal.jpg" alt=" Imagen del organizador">
 
-        <h3> Imágen del organizador</h3>
-          <center><img src="../Imágenes/FotoPersonal.jpg" alt=" Imagen del organizador"></center>
+      <h3> Foto Familiar del organizador</h3>
+      <img src="../Imágenes/Familia.jpg" alt=" Foto Familiar del organizador ">
+    </section>
+  </main>
+  <footer>
+    <p> Todos los derechos reservados. Buena pesca </p>
+    <a href="https://api.whatsapp.com/send?phone=542995289735" target="_blank">
+      <button class="guasap">
+        <i class="fab fa-whatsapp"></i> Dejanos tu consulta
+      </button>
+    </a>
+  </footer>
 
-          <h3> Foto Familiar del organizador</h3>
-          <center><img src="../Imágenes/Familia.jpg" alt=" Foto Familiar del organizador "></center>
-    </main>
+  <!-- JS -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
+    crossorigin="anonymous"></script>
 </body>
+
 </html>

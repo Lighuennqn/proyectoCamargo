@@ -5,139 +5,183 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title> Club de Pesca </title>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <!-- CSS BS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <!-- CSS -->
     <link rel="stylesheet" href="../css/estilos.css">
 </head>
 
-<body>
-    <h1> Especímenes </h1>
-    <nav>
-        <ul>
-            <li><a href="../index.html">Inicio</a></li>
-            <li><a href="especimenes.html"> Especimenes</a></li>
-            <li><a href="galeria.html">Galeria</a></li>
-            <li><a href="quienes somos.html"> Quienes Somos </a></li>
-            <li><a href="contacto.html">Contacto</a></li>
-        </ul>
-    </nav>
+<body class="container-fluid">
 
-
-    <h3> Especies aptas para la pesca deportiva </h3>
-
-    <p> Según la normativa de la República Argentina, las especies que pueden ser pescadas son las siguientes</p>
-
-    <div class="row">
-        <div class="col-xl-4 col-md-6 col-sm-12 ">
-            <div class="card text-center">
-                <img src="../Imágenes/Oxydoras kneri.JPG" class="card-img-top" alt=" Oxydoras kneri">
-                <div class="card-body">
-                    <h2 class="card-title"> Oxydoras kneri </h2>
-                    <p class="card-text"> Clasificación : Animalia / Chordata / Actinopterygii / Siluriformes /
-                        Doradidae / Oxydoras / kneri</p>
-
+    <header>
+        <div class="tituloPrincipal">
+            <h1> Pescando ando </h1>
+        </div>
+        <nav class="navbar navbar-expand-lg letra">
+            <div class="container-fluid">
+                <div class="logo"><a class="navbar-brand" href="../index.html"> <img class="frodo"
+                            src="../Imágenes/nqn-logo.png" alt="Logo "></a></div>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item">
+                            <a class="nav-link" href="../index.html"> Inicio </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="especimenes.html"> Especímenes </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="galeria.html"> Galeria </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="quienes somos.html"> Quienes Somos</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="contacto.html"> Contacto </a>
+                        </li>
+                    </ul>
                 </div>
             </div>
-        </div>
+        </nav>
+    </header>
+    <main>
+        <h3> Especies aptas para la pesca deportiva </h3>
+        <p> Según la normativa de la República Argentina, las especies que pueden ser pescadas son las siguientes</p>
 
 
-        <div class="col-xl-4 col-md-6 col-sm-12 ">
-            <div class="card text-center">
-                <img src="../Imágenes/trucha-arcoiris.jpg" class="card-img-top"
-                    alt="Oncorhynchus mykiss - Trucha Arcoiris">
-                <div class="card-body">
-                    <h3 class="card-title"> Oncorhynchus mykiss - Trucha Arcoiris </h3>
-                    <p class="card-text"> Distribución:
-
-                        Es nativa de la costa este del Océano Pacifico, desde Alaska hasta el norte de México.
-                        Actualmente es la
-                        trucha más ampliamente distribuida en todos los lugares del mundo en donde las aguas frías y
-                        cristalinas
-                        permiten su aclimatación, tanto en el hemisferio norte como en el hemisferio sur.
-                        La trucha cabeza de acero -steelhead- es de la misma especie, pero difiere de la forma conocida
-                        porque migra
-                        al mar para crecer y regresa al agua dulce a desovar, al igual que los salmones.
-                        Habita en la mayoría de los ambientes patagónicos. Es la más resistente en rangos de mayor
-                        temperatura.</p>
+        <section class="cardscontainer">
+            <div class="cards">
+                <div class="lola">
+                    <div class="cardImg">
+                        <img src="../Imágenes/Oxydoras kneri.JPG" class="card-img" alt=" Oxydoras kneri">
+                    </div>
+                    <div class="cardTexto">
+                        <h3>Oxydoras kneri</h3>
+                        <p> Clasificación : Animalia / Chordata / Actinopterygii / Siluriformes /
+                            Doradidae / Oxydoras / kneri.
+                            El armado chancho (Oxydoras kneri) es una especie de peces de la familia Doradidae en el
+                            orden de los Siluriformes. Los machos pueden llegar alcanzar los 70 cm de longitud total1​ y
+                            9 kg de peso. Es omnívoro: come principalmente insectos, crustáceos, moluscos y otros
+                            invertebrados, y materia vegetal.
+                            Hábitat: Es un pez de agua dulce y de clima tropical. Se encuentran en Sudamérica: cuenca
+                            del río Paraná.</p>
+                    </div>
+                </div>
+                <div class="lola">
+                    <div class="cardImg">
+                        <img src="../Imágenes/trucha-arcoiris.jpg" class="card-img"
+                            alt="Oncorhynchus mykiss - Trucha Arcoiris">
+                    </div>
+                    <div class="cardTexto">
+                        <h3>Oncorhynchus mykiss-Trucha Arcoiris</h3>
+                        <p>Distribución:
+                            Es nativa de la costa este del Océano Pacifico, desde Alaska hasta el norte de México.
+                            Actualmente es la trucha más ampliamente distribuida en todos los lugares del mundo en donde
+                            las aguas
+                            frías y cristalinas permiten su aclimatación, tanto en el hemisferio norte como en el
+                            hemisferio sur.
+                            La trucha cabeza de acero -steelhead- es de la misma especie, pero difiere de la forma
+                            conocida porque migra al mar para crecer y regresa al agua dulce a desovar, al igual que los
+                            salmones.
+                            Habita en la mayoría de los ambientes patagónicos. Es la más resistente en rangos de
+                            mayor temperatura</p>
+                    </div>
+                </div>
+                <div class="lola">
+                    <div class="cardImg">
+                        <img src="../Imágenes/trucha-marron.jpg" class="card-img" alt="Salmo trutta - Trucha Marrón">
+                    </div>
+                    <div class="cardTexto">
+                        <h3>Salmo trutta - Trucha Marrón </h3>
+                        <p>distribución:
+                            Aunque es nativa exclusiva de Europa y del oeste de Asia, ha sido ampliamente
+                            distribuida en todo el mundo.
+                            Ríos: Limay; Pichi Traful; Chimehuín; Manso; Traful. Lagos: Nahuel Huapi; Mascardi;
+                            Hess; Fonk; Roca y en la mayoría de la región</p>
+                    </div>
+                </div>
+                <div class="lola">
+                    <div class="cardImg">
+                        <img src="../Imágenes/Trucha de arroyo (Salvelinus fontinalis).jpg" class="card-img"
+                            alt=" Trucha de arroyo (Salvelinus fontinalis)">
+                    </div>
+                    <div class="cardTexto">
+                        <h3>Trucha de arroyo (Salvelinus fontinalis)</h3>
+                        <p> La trucha de manantial es el pez emblema del estado estadounidense de
+                            Virginia Occidental, y fue introducida en Argentina, sembrada por primera vez en los lagos
+                            Nahuel
+                            Huapi, Gutiérrez y Espejo.</p>
+                    </div>
+                </div>
+                <div class="lola">
+                    <div class="cardImg">
+                        <img src="../Imágenes/ejerrey Patagónico Odontesthes hatcheri.jpg" class="card-img"
+                            alt="Pejerrey patagónico (Odontesthes hatcheri)">
+                    </div>
+                    <div class="cardTexto">
+                        <h3>Pejerrey patagónico (Odontesthes hatcheri)</h3>
+                        <p>Odontesthes hatcheri habita en aguas frías a templado-frías de lagos,
+                            lagunas, y cursos fluviales de agua dulce del sur de América del Sur. En la Argentina se
+                            distribuye por el oeste y sudoeste, desde la región de Cuyo en las cuencas precordilleranas
+                            del río San
+                            Juan y del río Desaguadero en las provincias de San Juan y Mendoza, hasta gran parte de la
+                            Patagonia argentina, tanto en ríos y lagos que desaguan en el océano Atlántico como los de
+                            la
+                            cuenca del Pacífico; a través de Neuquén, La Pampa, Río Negro y Chubut,[2]​ llega por el sur
+                            hasta
+                            la cuenca del río Santa Cruz, en Santa Cruz, y por medio del río Colorado hacia el este
+                            alcanza el partido de Villarino, en el sur de Buenos Aires.</p>
+                    </div>
+                </div>
+                <div class="lola">
+                    <div class="cardImg">
+                        <img src="../Imágenes/Carpa (Cyprinus carpio).jpg" class="card-img"
+                            alt="Carpa (Cyprinus carpio)">
+                    </div>
+                    <div class="cardTexto">
+                        <h3>Carpa (Cyprinus carpio)</h3>
+                        <p>Según los datos del sistema de Información Global de Peces, dicho pez
+                            se encuentra en diez países de Sudamérica, estos son: Colombia, Surinam, Perú, Venezuela,
+                            Paraguay, Bolivia, Brasil, Uruguay y Argentina.
+                            Los peces carpa, llegaron a Chile, directo desde Alemania en el año 1875, luego Brasil
+                            los recibió a través de Hungría en 1898. En la década de 1940 continuaron expandiéndose por
+                            Colombia y Venezuela, mientras que Bolivia y Perú los recibieron desde México, Brasil y
+                            Colombia
+                            en 1946. Finalmente en 1968 llegaron a Surinam desde Japón.</p>
+                    </div>
                 </div>
             </div>
-        </div>
+        </section>
 
+    </main>
+        <section class="pieEnlace">
+            <h3> ENLACES </h3>
 
-        <div class="col-xl-4 col-md-6 col-sm-12 ">
-            <div class="card text-center">
-                <img src="../Imágenes/trucha-marron.jpg" class="card-img-top" alt=" Salmo trutta - Trucha Marrón">
-                <div class="card-body">
-                    <h3 class="card-title"> Salmo trutta - Trucha Marrón </h3>
-                    <p class="card-text">istribución:
-                        Aunque es nativa exclusiva de Europa y del oeste de Asia, ha sido ampliamente distribuida en
-                        todo el mundo.
-                        Ríos: Limay; Pichi Traful; Chimehuín; Manso; Traful. Lagos: Nahuel Huapi; Mascardi; Hess; Fonk;
-                        Roca y en la
-                        mayoría de la región</p>
-                </div>
-            </div>
-        </div>
-
-
-        <div class="col-xl-4 col-md-6 col-sm-12">
-            <div class="card text-center">
-                <img src="../Imágenes/Trucha de arroyo (Salvelinus fontinalis).jpg" class="card-img-top"
-                    alt=" Trucha de arroyo (Salvelinus fontinalis)">
-                <div class="card-body">
-                    <h3 class="card-title"> Trucha de arroyo (Salvelinus fontinalis) </h3>
-                    <p class="card-text"> La trucha de manantial es el pez emblema del estado estadounidense de Virginia
-                        Occidental, y fue introducida en Argentina, sembrada por primera vez en los lagos Nahuel Huapi,
-                        Gutiérrez y Espejo. </p>
-
-                </div>
-            </div>
-        </div>
-
-        <div class="col-xl-4 col-md-6 col-sm-12">
-            <div class="card text-center">
-                <img src="../Imágenes/ejerrey Patagónico Odontesthes hatcheri.jpg" class="card-img-top"
-                    alt=" Pejerrey patagónico (Odontesthes hatcheri)">
-                <div class="card-body">
-                    <h3 class="card-title"> Pejerrey patagónico (Odontesthes hatcheri) </h3>
-                    <p class="card-text">Odontesthes hatcheri habita en aguas frías a templado-frías de lagos, lagunas,
-                        y cursos fluviales de agua dulce del sur de América del Sur. En la Argentina se distribuye por
-                        el oeste y sudoeste, desde la región de Cuyo en las cuencas precordilleranas del río San Juan y
-                        del río Desaguadero en las provincias de San Juan y Mendoza, hasta gran parte de la Patagonia
-                        argentina, tanto en ríos y lagos que desaguan en el océano Atlántico como los de la cuenca del
-                        Pacífico; a través de Neuquén, La Pampa, Río Negro y Chubut,[2]​ llega por el sur hasta la
-                        cuenca del río Santa Cruz, en Santa Cruz, y por medio del río Colorado hacia el este alcanza el
-                        partido de Villarino, en el sur de Buenos Aires. </p>
-                </div>
-            </div>
-        </div>
-
-        <div class="col-xl-4 col-md-6 col-sm-12">
-            <div class="card text-center">
-                <img src="../Imágenes/Carpa (Cyprinus carpio).jpg" class="card-img-top" alt=" Carpa (Cyprinus carpio)">
-                <div class="card-body">
-                    <h3 class="card-title"> Carpa (Cyprinus carpio) </h3>
-                    <p class="card-text"> Según los datos del sistema de Información Global de Peces, dicho pez se
-                        encuentra en diez países de Sudamérica, estos son: Colombia, Surinam, Perú, Venezuela, Paraguay,
-                        Bolivia, Brasil, Uruguay y Argentina.
-                        Los peces carpa, llegaron a Chile, directo desde Alemania en el año 1875, luego Brasil los
-                        recibió a través de Hungría en 1898. En la década de 1940 continuaron expandiéndose por Colombia
-                        y Venezuela, mientras que Bolivia y Perú los recibieron desde México, Brasil y Colombia en 1946.
-                        Finalmente en 1968 llegaron a Surinam desde Japón. </p>
-
-                </div>
-            </div>
-        </div>
-    </div>
+            <a href="http://www.argentina.gob.ar/normativa/recurso/24788/dn4238-1968cap23/htm"> Normativa de Pesca
+                CAPITULO
+                XXIII</a>
+        </section>
+    
+    <footer>
+        <p> Todos los derechos reservados. Buena pesca </p>
+        <a href="https://api.whatsapp.com/send?phone=542995289735" target="_blank">
+            <button class="guasap">
+                <i class="fab fa-whatsapp"></i> Dejanos tu consulta
+            </button>
+        </a>
+    </footer>
+<!-- JS -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
+crossorigin="anonymous"></script>
 </body>
 
-<footer>
-    <div class="pieEnlace">
-        <h4> ENLACES </h4>
 
-        <a href="http://www.argentina.gob.ar/normativa/recurso/24788/dn4238-1968cap23/htm"> Normativa de Pesca CAPITULO
-            XXIII</a>
-    </div>
-</footer>
 
 </html>
